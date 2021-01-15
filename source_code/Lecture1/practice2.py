@@ -30,19 +30,19 @@ Example input
 Example output
 1분반
 학생 수 : 5명
-평균 점수 : 19.60점
+평균 점수 : 72.80점
 중앙값 : 75.00점
 최고 점수 : 98점, 최저 점수 : 45점
 
 2분반
 학생 수 : 6명
-평균 점수 : 15.83점
+평균 점수 : 68.67점
 중앙값 : 70.50점
 최고 점수 : 95점, 최저 점수 : 46점
 
 3분반
 학생 수 : 7명
-평균 점수 : 13.00점
+평균 점수 : 73.71점
 중앙값 : 76.00점
 최고 점수 : 91점, 최저 점수 : 43점
 """
@@ -51,7 +51,7 @@ def average(List):
 	Sum = 0 # 점수 총합
 	for score in List:
 		Sum += score
-	return score / len(List)
+	return Sum / len(List)
 
 def median(List):
 	ret = 0 # 중앙값
