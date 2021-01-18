@@ -121,4 +121,5 @@ for Iter in range(1, max_Iter + 1):
 				pi[y][x][action] = 0
 
 # DP 계산 결과를 출력합니다.
+env.display_maze()
 env.display_pi(pi)
